@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Start</h1>
+				</section>
+
+				<section>
+					<h1>revealjs</h1>
+				</section>
+
+				<section data-markdown>
+					<textarea data-templete>
+						## revealjs의 정의
+						^\n\n\n
+						## 123567
+					</textarea>
+				</section>
+
+				<section data-background-color="aquamarine">
+					<h2>🐟</h2>
+				</section>
+
+				<section>
+					<section>Vertical Slide 1</section>
+					<section>Vertical Slide 2</section>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+					  ## Slide 1
+					  A paragraph with some text and a [link](http://hakim.se).
+					  ---
+					  ## Slide 2
+					  ---
+					  ## Slide 3
+					</textarea>
+				</section>
+
+				<section>
+					<section data-auto-animate><h1>장점</h1></section>	
+					<section data-auto-animate>
+						<p style="color: red;">심플하다</p>
+					</section>
+					<section>언제 어디서든 인터넷만 되면 가능하다</section>
+					<section>html파일이라서 웹서버에 업로드 할 수 있다</section>
+				</section>
+
+				
+				<section data-auto-animate><h1>단점</h1></section>
+				<section data-auto-animate>
+					<h1>단점</h1>
+					<p>기능이 MSppt에 비해 적다</p>
+				</section>
+				
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
